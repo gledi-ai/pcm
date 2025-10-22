@@ -1,0 +1,7 @@
+services:
+  trino:
+    image: trinodb/trino:476
+    ports:
+      - "9090:8080"
+    volumes:
+      - ./containers/trino:/etc/trino/catalog
