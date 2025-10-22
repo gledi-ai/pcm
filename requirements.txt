@@ -1,0 +1,17 @@
+fastapi[standard-no-fastapi-cloud-cli]
+pydantic
+pydantic-settings
+uvicorn
+httpx
+structlog
+orjson
+trino
+sqlglot
+
+# dev
+ipython
+pytest
+pytest-asyncio
+coverage
+ruff
+rich
